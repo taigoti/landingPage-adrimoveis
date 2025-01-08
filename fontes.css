@@ -1,0 +1,64 @@
+h1, h2, h3, h4, h5 {
+    color: #4B2815;
+}
+
+h1 {
+    font-size: max(22px, 2.1vw);
+}
+
+h2 {
+    font-size: max(24px, 1.8vw);
+}
+
+h3 {
+    font-size: max(20px, 1.6vw);
+    font-weight: 500;
+}
+
+h4 {
+    font-family: YanoneKaffeesatz-Regular;
+    font-size: max(19px, 1.5vw);
+    font-weight: 500;
+}
+
+h5 {
+    font-size: max(16px, 1.2vw);
+    font-weight: 500;
+}
+
+p {
+    font-family: YanoneKaffeesatz-Light;
+    font-size: max(18px, 1.45vw);
+    line-height: 4vh;
+    letter-spacing: 0.5px;
+}
+
+span {
+    color: #A5411F;
+}
+
+button {
+    font-size: max(18px, 1.4vw);
+    font-family: YanoneKaffeesatz-Regular;
+    letter-spacing: 0.5px;
+}
+
+@font-face {
+    font-family: YanoneKaffeesatz-Light;
+    src: url("/fonts/YanoneKaffeesatz-Light.ttf")
+}
+
+@font-face {
+    font-family: YanoneKaffeesatz-Regular;
+    src: url("/fonts/YanoneKaffeesatz-Regular.ttf");
+}
+
+@font-face {
+    font-family: Swis721LtBT;
+    src: url("/fonts/Swis721LtBT.ttf");
+}
+
+@font-face {
+    font-family: Swis721BTBold;
+    src: url("/fonts/Swis721BTBold.ttf");
+}
